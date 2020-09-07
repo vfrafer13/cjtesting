@@ -19,6 +19,7 @@ public class MainPage {
         System.setProperty("webdriver.gecko.driver", "C:\\geckodriver.exe");
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        //minor commit change
         driver.get("https://cupcakejemma.com/");
     }
 

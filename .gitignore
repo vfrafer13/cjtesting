@@ -1,0 +1,4 @@
+lib/*
+out
+test-output
+bin

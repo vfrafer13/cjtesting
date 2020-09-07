@@ -1,5 +1,5 @@
 set projectLocation=C:\Users\nezzi\IdeaProjects\CupcakeJemmaTesting
 cd %projectLocation%
-set classpath=%projectLocation%\bin;%projectLocation%\lib\*
-java org.testng.TestNG %projectLocation%\testng.xml
+set classpath="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\lib\idea_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\plugins\testng\lib\testng-rt.jar;C:\Users\nezzi\IdeaProjects\CupcakeJemmaTesting\bin\production\CupcakeJemmaTesting;C:\Users\nezzi\IdeaProjects\CupcakeJemmaTesting\lib\bsh-2.0b6.jar;C:\Users\nezzi\IdeaProjects\CupcakeJemmaTesting\lib\byte-buddy-1.8.15.jar;C:\Users\nezzi\IdeaProjects\CupcakeJemmaTesting\lib\client-combined-3.141.59.jar;C:\Users\nezzi\IdeaProjects\CupcakeJemmaTesting\lib\commons-exec-1.3.jar;C:\Users\nezzi\IdeaProjects\CupcakeJemmaTesting\lib\guava-25.0-jre.jar;C:\Users\nezzi\IdeaProjects\CupcakeJemmaTesting\lib\jcommander-1.72.jar;C:\Users\nezzi\IdeaProjects\CupcakeJemmaTesting\lib\okhttp-3.11.0.jar;C:\Users\nezzi\IdeaProjects\CupcakeJemmaTesting\lib\okio-1.14.0.jar;C:\Users\nezzi\IdeaProjects\CupcakeJemmaTesting\lib\testng-6.14.3.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\plugins\testng\lib\jcommander-1.27.jar"
+"C:\Program Files\Java\jdk-13\bin\java.exe" org.testng.TestNG %projectLocation%\testng.xml
 pause

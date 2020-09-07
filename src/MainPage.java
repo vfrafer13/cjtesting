@@ -21,7 +21,7 @@ public class MainPage {
 
     @Test
     public void verifyTitle() {
-        new WebDriverWait(driver, 30).until(ExpectedConditions.titleContains("Cupcake Jemma | Amazing Baking"));
+        new WebDriverWait(driver, 60).until(ExpectedConditions.titleContains("Cupcake Jemma | Amazing Baking"));
 
         Assert.assertTrue(driver.getTitle().contains("Cupcake Jemma | Amazing Baking"));
     }

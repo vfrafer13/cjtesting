@@ -8,6 +8,8 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
+import java.util.concurrent.TimeUnit;
+
 public class MainPage {
 
     private WebDriver driver;
@@ -16,6 +18,7 @@ public class MainPage {
     public void beforeSuite() {
         System.setProperty("webdriver.gecko.driver", "C:\\geckodriver.exe");
         driver = new FirefoxDriver();
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get("https://cupcakejemma.com/");
     }
 
